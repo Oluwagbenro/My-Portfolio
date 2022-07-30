@@ -1,0 +1,60 @@
+@import url(about.css);
+@import url(description.css);
+@import url(feedback.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(project.css);
+@import url(services.css);
+@import url(skills.css);
+@import url(typography.css);
+
+/* FONT Varriables */
+
+:root{
+    --font-primary: 'Nunito', sans-serif;
+    --font-secondary: 'Josefin Sans', sans-serif;
+    
+    /*  Color variables */
+    --color-primary: #c69963;
+    --color-primary-dark: #B28451;
+    --color-secondary: #101d2c;
+    --color-grey-light:#f9f7f6;
+    --color-grey-dark:#54483A;
+    --color-white:#fff;
+    --color-grey-light-2: #aaa;
+}
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 70%
+}
+
+body{
+    font-family: var(--font-primary);
+    /* color:var(--color-grey-light); */
+    background-color: var(--color-grey-light);
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.container{
+    display:grid;
+
+    grid-template-rows: 8rem 80vh repeat(5, min-content);
+    grid-template-columns: [full-start]minmax(6rem, 1fr)
+    [center-start]repeat(11, [col-start] minmax(min-content,14rem)[col-end]) 
+    [center-end]minmax(6rem, 1fr)[full-end];
+}
+@media only screen and (max-width: 900px) {
+    .container{
+        grid-template-rows: 6rem 80vh 40rem repeat(5,min-content);
+    }
+}

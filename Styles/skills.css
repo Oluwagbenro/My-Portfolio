@@ -1,0 +1,22 @@
+.skills{
+    background-color: var(--color-white);
+    grid-column: full-start / full-end;
+    /* grid-row: 3/4; */
+    padding: 3rem;
+}
+
+.h1_skills{
+    padding: 2rem 2rem 2rem 4.5rem ;
+}
+.skills_font{
+    display: flex;
+    justify-content: space-around;
+}
+.skills_logo{
+    font-size: 6rem;
+    color: var(--color-secondary);
+}
+.skills_paragraph{
+    color: var(--color-secondary);
+    font-weight: 700;
+}
