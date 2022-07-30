@@ -3,7 +3,7 @@
     grid-column: full-start / full-end;
     /* grid-row: 3/4; */
     padding: 3rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .h1_skills{
@@ -15,7 +15,7 @@
     justify-content: space-around;
 }
 .skills_logo{
-    font-size: 6rem;
+    font-size: 5rem;
     color: var(--color-secondary);
 }
 .skills_paragraph{
