@@ -15,9 +15,12 @@
     font-size: 2.5rem;
 }
 .footer_socialhandles{
-    align-self: center;
+    display: flex;
+    justify-content: center;
 }
-
 .footer_icon{
     font-size: 3rem;
+}
+.footer_icon:not(:last-child){
+    margin-right: 3rem;
 }
