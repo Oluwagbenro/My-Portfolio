@@ -1,7 +1,8 @@
 .feedback{
     grid-column: center-start / center-end;
     /* grid-row: 6/7; */
-    padding:3rem 0rem 2rem 4.6rem;
+    padding:3rem 5rem 3rem 5rem;
+    justify-content: center;
     font-size: 2.5rem;
 }
 .h1_feedback{
@@ -29,12 +30,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr; 
 }
+.feedback_contact{
+    padding-top: 1rem;
+}
 .feedback_input{
     border: none;
     padding: 1rem 20rem 1rem 2rem; 
     border-radius: 10rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size:1rem;
+    border: 1px solid currentColor;
 }
 .feedback_label{
     color: var(--color-secondary);
@@ -49,7 +54,5 @@
 }
 #message{
     /* min-height: 10rem; */
-    margin-bottom: 1rem;
-    text-align: center;
-    
+    margin-bottom: 2rem;  
 }
