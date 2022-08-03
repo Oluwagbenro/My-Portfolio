@@ -18,7 +18,6 @@
     justify-self: center;
     grid-column: 2/3;
     z-index: 1000;
-
 }
 .header_nav{
     grid-column: 6/13;
