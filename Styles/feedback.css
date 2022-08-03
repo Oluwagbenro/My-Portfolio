@@ -39,7 +39,7 @@
     border-radius: 10rem;
     margin-bottom: 2rem;
     font-size:1rem;
-    border: 1px solid currentColor;
+    border: .5px solid currentColor;
 }
 .feedback_label{
     color: var(--color-secondary);

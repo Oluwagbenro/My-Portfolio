@@ -57,6 +57,6 @@ body{
 }
 @media only screen and (max-width: 900px) {
     .container{
-        grid-template-rows: 8rem 80vh 40rem repeat(5,min-content);
+        grid-template-rows: 8rem 95vh 40rem repeat(5,min-content);
     }
 }
